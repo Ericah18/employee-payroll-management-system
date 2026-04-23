@@ -4,12 +4,12 @@ function Navbar() {
  return (
   <div className="bg-blue-600 text-white px-6 py-3 flex items-center justify-between shadow-md">
     
-    <h1 className="text-lg font-bold tracking-wide">
+    <h1 className="text-lg font-bold tracking-wide bg green">
       Payroll System
     </h1>
 
-    <div className="flex gap-6">
-      <Link to="/employee" className="hover:text-gray-200 transition duration-200">
+    <div className="flex gap-6 text-center bg-black">
+      <Link to="/employee" className="hover:text-gray-200 transition duration-200 text-center">
         Employee
       </Link>
 
